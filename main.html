@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Le livre du héros !</title>
+	    <link href="main.css" rel="stylesheet" type="text/css">
+        <script src="main.js"></script> <!-- Jsp si ça fonctionne -->
+    </head>
+
+    <body>
+        <h1>Menu</h1>
+        <nav><ul><li>Page 1</li><li>Page 2</li></ul></nav>
+        <h3>Description du jeu</h3>
+        <button>Commencer</button>
+
+        Papa.parse("chapters.csv", {
+            download: true;
+            header: true;
+        })
+    </body>
+
+
+</html>
+
+<!-- Ctrl + k et ctrl + c -->
