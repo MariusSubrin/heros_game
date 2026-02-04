@@ -6,6 +6,13 @@ html {
 
 button a:hover { background-color: #555; transition: background-color 0.3s ease; } 
 
+div dropdown-btn {
+padding: 10px 15px;
+border: 1px solid #333;
+cursor: pointer;
+background: #f0f0f0;
+}
+
 h3 {
     color: red;
 }
